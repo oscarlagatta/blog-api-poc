@@ -12,7 +12,7 @@ namespace BlogNews.API.Services
         Blog GetBlog(Guid authorId, Guid blogId);
         void AddBlog(Guid authorId, Blog blog);
         void UpdateBlog(Blog blog);
-        void DeleteBlog(Blog course);
+        void DeleteBlog(Blog blog);
         IEnumerable<Author> GetAuthors();
         Author GetAuthor(Guid authorId);
         IEnumerable<Author> GetAuthors(IEnumerable<Guid> authorIds);
